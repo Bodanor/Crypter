@@ -1,0 +1,3 @@
+This version only stores the content of the file into memory THEN performes encryption directly through memory
+That means that if we load a big file, we would get an error because we have not enough RAM
+Therefore, we should implement a way to load by chunks of memory then immediatly write processesed data to the file.
