@@ -35,7 +35,7 @@ int crypt_data(file_struct* file_str, int seek)
 {
     assert(file_str != NULL);
 
-    int i;
+    long i;
     srand(seek);
     char *file_data_ptr = file_str->file_data;
 
